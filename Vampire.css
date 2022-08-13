@@ -1,45 +1,74 @@
-h1 {
-  color: orange;
-  text-align: center;
-  font-weight: bold;
-  font-size: 50px;
-  border: 5px solid #000000
-}
-body
-{background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-_UIvXsoXHp8%2FUBsmbTyO-zI%2FAAAAAAAADV0%2Ficak19f-IB0%2Fs1600%2FThailand_Bangkok_Cityscape_Red_Night_View_HD_Wallpaper-Vvallpaper.Net.jpg&f=1&nofb=1');
+.header {
 
-background-size: cover;
-background-position: center;}
+    width: 60%;
+    float: left;
+    max-height: 200px;
+}
+h1 {
+    font-family: "Square Peg";
+    color: #9f0b13;
+    font-size: 120px;
+    text-align: left;
+    padding-left: 40px;
+    margin:auto;
+}
+h3 {
+    font-family: "Special Elite";
+    color: #5b060b;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    margin: auto;
+    
+    }
+h4 {
+    float: right;
+    color: #9f0b13;
+    font-family: "Special Elite";
+}
+main {
+    margin: 15px;
+    padding-top: 60px;
+   
+}
+section {
+    background-color: #753a07; /* change to wooden desk photo*/
+
+}
+.button {
+   display: inline-flex;
+   flex-grow: inherit;
+   max-width: 100px;
+   max-height: 100px;
+}
+
+.scott, .tyler {
+    background-color: #5b060b;
+    color: #999;
+    padding: 20px;
+    font-family: 'Special Elite';
+    font-size: 22px;
+}
+
+.kurt, .mario {
+    background-color: #9f0b13;
+    color: #999;
+    padding: 20px;
+    font-family: 'Special Elite';
+    font-size: 22px;
+}
 p {
-  font-family: arial;
-  color: #fde4bc;
-  text-align: center;
-  }
-h1 {font-family: 'helvetica';
-color: maroon;
+    text-align: center;
+    font-family: 'Special Elite';
+    line-height: 1.5em;
 }
-h2, ol {
-  color: pink;
-  font-family: sans-serif
-  }
-li {
-  font-family: helvetica;
-  color: gold;
-  
+.page {
+    border: 1px solid #000000;
+    display: inline-flex;
+    width: 30%;
+    margin: 5%;
+    padding: 5%;
+    font-size: 16px;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
-  img {
-    height: 200px;
-    display: inline-block;
-    font-weight: bold;
-    color: white;
-  }
-  footer {color: white;
-  font-family: Helvetica;
-  font-weight: bold;}
-  h3 {
-    color: gold;
-    font-weight: bold
-  }
-  .header{
-    position: center;
-  }
